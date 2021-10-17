@@ -1,0 +1,47 @@
+.box {
+  width: 400px;
+  height: 200px;
+  border: 1px solid black;
+}
+.query-frame {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.red-border {
+  border: 1px solid red;
+}
+
+.auto-scroll {
+  height: calc(100% - 60px);
+  overflow: auto;
+}
+.content-split {
+  border: 1px solid black;
+  overflow: auto;
+}
+
+.default-query {
+  height: 60px;
+}
+
+.query-item:hover {
+  background-color: green;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+/* frame 2 */
+#query-content-area {
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  border: 1px solid red;
+}
+
+#query-content {
+  height: 85%;
+  width: 85%;
+}
