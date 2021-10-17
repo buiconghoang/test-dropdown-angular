@@ -1,14 +1,14 @@
 
 <div id="save-query-panel" class="box">
-  <div class="query-frame">
-    <div class="default-query">
-      <mat-nav-list>
+  <div class="query-frame" id="query-list">
+    <!-- <div class="default-query"> -->
+      <mat-nav-list class="nav-list" id="default-query">
         <mat-list-item class="query-item">default query</mat-list-item>
       </mat-nav-list>
       <mat-divider></mat-divider>
-    </div>
+    <!-- </div> -->
     <div class="auto-scroll">
-      <mat-nav-list>
+      <mat-nav-list class="nav-list">
         <mat-list-item class="query-item"
           *ngFor="let query of queryList; index as idx"
           (click)="clickMenu($event)"
